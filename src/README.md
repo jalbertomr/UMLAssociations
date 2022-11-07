@@ -6,6 +6,7 @@ A walk through the UML Associations
  2. Aggregate
  3. Composition
 
+  #### Important note: Java has not the use of destroy a class, so a class when his life cycle ends this class can not destroy the classes associated in case of a composition, in other words the solid diamond in uml representations has not sense. 
 
   ## Association
     // Person ----------- Person    bidirectional association, both has his own life cycle.
@@ -81,3 +82,5 @@ A walk through the UML Associations
             new Part("AudiBody"))));
 
     System.out.println("Vehicle: " + audi);
+    
+    
