@@ -1,4 +1,4 @@
-# Assosiations in UML 
+# Associations in UML 
  
 A walk through the UML Associations 
 
